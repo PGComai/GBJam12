@@ -36,3 +36,14 @@ NAMES:
 	- Witch Get Stitch
 	- All Trick No Treat
 	- Porch Protector *
+
+FINAL STRETCH:
+	- halloween sound
+	- intro sound
+	- candy taken sound
+	- halloween music
+
+POST JAM:
+	- pause button
+	- 2x speed
+	
