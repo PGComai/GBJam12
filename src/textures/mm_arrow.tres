@@ -1,0 +1,12 @@
+[gd_resource type="TubeTrailMesh" load_steps=2 format=3 uid="uid://iqylgytj82ys"]
+
+[sub_resource type="Curve" id="Curve_doubo"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.095941, 0.274112), 0.0, 0.0, 0, 0, Vector2(0.749078, 0.268113), 0.0, 0.0, 0, 0, Vector2(0.756458, 1), -2.40328, -2.40328, 0, 0, Vector2(1, 0), -4.96896, 0.0, 0, 0]
+point_count = 5
+
+[resource]
+radius = 0.02
+section_length = 0.015
+cap_top = false
+cap_bottom = false
+curve = SubResource("Curve_doubo")

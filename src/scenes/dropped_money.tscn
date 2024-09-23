@@ -1,0 +1,72 @@
+[gd_scene load_steps=11 format=3 uid="uid://dc7gk6hh2tv5o"]
+
+[ext_resource type="Texture2D" uid="uid://b2p055qghw1wy" path="res://textures/animatedcoin-4colour-8x8.png" id="1_an4j2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c71yi"]
+atlas = ExtResource("1_an4j2")
+region = Rect2(0, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_coh8h"]
+atlas = ExtResource("1_an4j2")
+region = Rect2(8, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5d34t"]
+atlas = ExtResource("1_an4j2")
+region = Rect2(16, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pxd1s"]
+atlas = ExtResource("1_an4j2")
+region = Rect2(24, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ln5jp"]
+atlas = ExtResource("1_an4j2")
+region = Rect2(32, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_be51h"]
+atlas = ExtResource("1_an4j2")
+region = Rect2(40, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xx3wm"]
+atlas = ExtResource("1_an4j2")
+region = Rect2(48, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fdnx2"]
+atlas = ExtResource("1_an4j2")
+region = Rect2(56, 0, 8, 8)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_opgdh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c71yi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_coh8h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5d34t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pxd1s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ln5jp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_be51h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xx3wm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fdnx2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="DroppedMoney" type="AnimatedSprite2D" groups=["dropped_money"]]
+sprite_frames = SubResource("SpriteFrames_opgdh")
+autoplay = "default"
+frame_progress = 0.813974

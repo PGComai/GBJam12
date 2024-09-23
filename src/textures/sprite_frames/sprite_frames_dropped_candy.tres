@@ -1,0 +1,81 @@
+[gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://e3l48vxm58e5"]
+
+[ext_resource type="Texture2D" uid="uid://ca3f6yvgr4632" path="res://textures/animatedcandy-4colour-8x8b.png" id="1_uyq2e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5kmbo"]
+atlas = ExtResource("1_uyq2e")
+region = Rect2(0, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jy586"]
+atlas = ExtResource("1_uyq2e")
+region = Rect2(8, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fl0cg"]
+atlas = ExtResource("1_uyq2e")
+region = Rect2(16, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_diydx"]
+atlas = ExtResource("1_uyq2e")
+region = Rect2(24, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vxgsa"]
+atlas = ExtResource("1_uyq2e")
+region = Rect2(32, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_adsat"]
+atlas = ExtResource("1_uyq2e")
+region = Rect2(40, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aw3ol"]
+atlas = ExtResource("1_uyq2e")
+region = Rect2(48, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g85xt"]
+atlas = ExtResource("1_uyq2e")
+region = Rect2(56, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ejhg0"]
+atlas = ExtResource("1_uyq2e")
+region = Rect2(64, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ltge5"]
+atlas = ExtResource("1_uyq2e")
+region = Rect2(72, 0, 8, 8)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5kmbo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jy586")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fl0cg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_diydx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vxgsa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_adsat")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aw3ol")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g85xt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ejhg0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ltge5")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 6.0
+}]

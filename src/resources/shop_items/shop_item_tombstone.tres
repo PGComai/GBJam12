@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="ShopItem" load_steps=4 format=3 uid="uid://b1eycjdoycfmy"]
+
+[ext_resource type="Script" path="res://scripts/shop_item.gd" id="1_06g4o"]
+[ext_resource type="Texture2D" uid="uid://b3vvifytshmv4" path="res://textures/tombstone-4colour-16x16.png" id="1_wnhiv"]
+[ext_resource type="PackedScene" uid="uid://cugs3mmx2k4a6" path="res://scenes/decoration_tombstone.tscn" id="2_y2ds4"]
+
+[resource]
+script = ExtResource("1_06g4o")
+item_scene = ExtResource("2_y2ds4")
+name = "Tombstone"
+cost = 100
+dps = 0.2
+description = "[center]Tombstone[/center]
+[fill]Cost: 100
+Spook: 0.2
+Range: 24
+
+Owned: xxx[/fill]"
+radius = 24.0
+icon = ExtResource("1_wnhiv")
+icon_size = 1

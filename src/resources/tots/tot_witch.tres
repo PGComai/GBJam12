@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Tot" load_steps=4 format=3 uid="uid://bahy0a7jtikt1"]
+
+[ext_resource type="Texture2D" uid="uid://dlkltppj2610b" path="res://textures/witchTOT-4colour-fwalk.png" id="1_d6arj"]
+[ext_resource type="Script" path="res://scripts/tot.gd" id="1_t8e00"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xtda7"]
+atlas = ExtResource("1_d6arj")
+region = Rect2(0, 0, 16, 24)
+
+[resource]
+script = ExtResource("1_t8e00")
+_name = "Witch"
+bravery = 30
+speed = 10
+icon = SubResource("AtlasTexture_xtda7")
+description = "[center]Witch[/center]
+[fill]Bravery: 30
+Speed: 10
+Candy: 3
+Money: 30[/fill]"

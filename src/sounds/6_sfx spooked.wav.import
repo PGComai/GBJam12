@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dkf5dl6a5sgon"
+path="res://.godot/imported/6_sfx spooked.wav-e9963405398e4cb25f736e95b326bce2.sample"
+
+[deps]
+
+source_file="res://sounds/6_sfx spooked.wav"
+dest_files=["res://.godot/imported/6_sfx spooked.wav-e9963405398e4cb25f736e95b326bce2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

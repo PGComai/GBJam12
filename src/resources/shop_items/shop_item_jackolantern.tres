@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="ShopItem" load_steps=4 format=3 uid="uid://bfva8llkuef4e"]
+
+[ext_resource type="Texture2D" uid="uid://blikfe5jkmme4" path="res://textures/jackolantern-4colour-16x16.png" id="1_ch3op"]
+[ext_resource type="Script" path="res://scripts/shop_item.gd" id="1_mwaja"]
+[ext_resource type="PackedScene" uid="uid://cpwdjloiqyyrv" path="res://scenes/decoration_jackolantern.tscn" id="1_reegq"]
+
+[resource]
+script = ExtResource("1_mwaja")
+item_scene = ExtResource("1_reegq")
+name = "Jack-O-Lantern"
+cost = 50
+dps = 0.4
+description = "[center]Jack-O-Lantern[/center]
+[fill]Cost: 50
+Spook: 0.4
+Range: 24
+
+Owned: xxx[/fill]"
+radius = 24.0
+icon = ExtResource("1_ch3op")
+icon_size = 1

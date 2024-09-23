@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://d2fhve163kjeh"]
+
+[ext_resource type="Shader" uid="uid://3cm76kkd3hi4" path="res://textures/colormod_shader.tres" id="1_o3wye"]
+[ext_resource type="Gradient" uid="uid://c81q8djnry5eg" path="res://textures/colormaps/colormap_dark_purple_light_orange.tres" id="2_x3cav"]
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_aokrx"]
+gradient = ExtResource("2_x3cav")
+
+[resource]
+shader = ExtResource("1_o3wye")
+shader_parameter/tex_frg_6 = SubResource("GradientTexture1D_aokrx")

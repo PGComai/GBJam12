@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfyepcfffuxme"]
+
+[ext_resource type="PackedScene" uid="uid://dosna3gw3l4cd" path="res://scenes/world.tscn" id="1_wokyr"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_l1f7v"]
+viewport_path = NodePath("TextureRect/SubViewport")
+
+[node name="UX" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("ViewportTexture_l1f7v")
+
+[node name="SubViewport" type="SubViewport" parent="TextureRect"]
+snap_2d_transforms_to_pixel = true
+snap_2d_vertices_to_pixel = true
+canvas_item_default_texture_filter = 0
+size = Vector2i(160, 144)
+
+[node name="World" parent="TextureRect/SubViewport" instance=ExtResource("1_wokyr")]

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="ShopItem" load_steps=4 format=3 uid="uid://bkvo7wj5hc1fw"]
+
+[ext_resource type="Texture2D" uid="uid://bospraim6gw4c" path="res://textures/webby-4colour-16x16b.png" id="1_oi56k"]
+[ext_resource type="Script" path="res://scripts/shop_item.gd" id="1_wa26q"]
+[ext_resource type="PackedScene" uid="uid://bwal17aph3hmr" path="res://scenes/decoration_webby.tscn" id="2_4s65q"]
+
+[resource]
+script = ExtResource("1_wa26q")
+item_scene = ExtResource("2_4s65q")
+name = "Spiderweb"
+cost = 150
+dps = 0.4
+description = "[center]Spiderweb[/center]
+[fill]Cost: 150
+Spook: 0.4
+Range: 32
+
+Owned: xxx[/fill]"
+radius = 24.0
+icon = ExtResource("1_oi56k")
+icon_size = 1

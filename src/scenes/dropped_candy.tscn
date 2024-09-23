@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b55jvgwcasj2t"]
+
+[ext_resource type="SpriteFrames" uid="uid://e3l48vxm58e5" path="res://textures/sprite_frames/sprite_frames_dropped_candy.tres" id="1_440ki"]
+
+[node name="DroppedCandy" type="AnimatedSprite2D" groups=["dropped_candy"]]
+sprite_frames = ExtResource("1_440ki")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.35318

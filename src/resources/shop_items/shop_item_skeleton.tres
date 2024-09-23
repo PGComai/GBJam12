@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="ShopItem" load_steps=4 format=3 uid="uid://cnv812v1ujo40"]
+
+[ext_resource type="Script" path="res://scripts/shop_item.gd" id="1_bf4u8"]
+[ext_resource type="Texture2D" uid="uid://dovalhqpftfwh" path="res://textures/skelly-4colour-16x24.png" id="1_yn4b7"]
+[ext_resource type="PackedScene" uid="uid://dp221iska21dn" path="res://scenes/decoration_skeleton.tscn" id="2_gxdr5"]
+
+[resource]
+script = ExtResource("1_bf4u8")
+item_scene = ExtResource("2_gxdr5")
+name = "Skeleton"
+cost = 300
+dps = 0.5
+description = "[center]Skeleton[/center]
+[fill]Cost: 300
+Spook: 0.5
+Range: 32
+
+Owned: xxx[/fill]"
+radius = 32.0
+icon = ExtResource("1_yn4b7")
+icon_size = 0

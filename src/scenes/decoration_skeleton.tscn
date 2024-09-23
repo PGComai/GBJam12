@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dp221iska21dn"]
+
+[ext_resource type="Script" path="res://scripts/decoration.gd" id="1_vb8ge"]
+[ext_resource type="Texture2D" uid="uid://dovalhqpftfwh" path="res://textures/skelly-4colour-16x24.png" id="2_glghd"]
+
+[node name="DecorationSkeleton" type="Node2D"]
+script = ExtResource("1_vb8ge")
+icon = ExtResource("2_glghd")
+_name = "Skeleton"
+range = 32
+damage = 0.5
+initial_damage = 2.0
+damage_interval = 1.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]

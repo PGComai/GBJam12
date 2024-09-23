@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cugs3mmx2k4a6"]
+
+[ext_resource type="Script" path="res://scripts/decoration.gd" id="1_aox51"]
+[ext_resource type="Texture2D" uid="uid://b3vvifytshmv4" path="res://textures/tombstone-4colour-16x16.png" id="2_c2l0r"]
+
+[node name="DecorationTombstone" type="Node2D" groups=["tombstone"]]
+script = ExtResource("1_aox51")
+icon = ExtResource("2_c2l0r")
+_name = "Tombstone"
+range = 24
+damage = 0.1
+initial_damage = 0.6
+damage_interval = 0.5
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
