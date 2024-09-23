@@ -7,3 +7,4 @@ sprite_frames = ExtResource("1_440ki")
 animation = &"new_animation"
 autoplay = "new_animation"
 frame_progress = 0.35318
+offset = Vector2(0, 4)

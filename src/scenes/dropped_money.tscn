@@ -70,3 +70,4 @@ animations = [{
 sprite_frames = SubResource("SpriteFrames_opgdh")
 autoplay = "default"
 frame_progress = 0.813974
+offset = Vector2(0, 4)

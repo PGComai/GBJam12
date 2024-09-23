@@ -66,7 +66,7 @@ func _on_area_body_entered(body):
 	if body.is_in_group("tot"):
 		if not body.running_away:
 			tots_in_range.append(body)
-			spook_dilution = 1.0 / max(float(tots_in_range.size()) * 0.1, 1.0)
+			spook_dilution = 1.0 / max(float(tots_in_range.size()) * 0.02, 1.0)
 		if not body.stop_moving:
 			body.bravery -= initial_damage * body.spook_resistance * spook_dilution * group_damage_bonus
 
@@ -75,4 +75,4 @@ func _on_area_body_exited(body):
 	if body.is_in_group("tot"):
 		if tots_in_range.has(body):
 			tots_in_range.erase(body)
-			spook_dilution = 1.0 / max(float(tots_in_range.size()) * 0.1, 1.0)
+			spook_dilution = 1.0 / max(float(tots_in_range.size()) * 0.02, 1.0)

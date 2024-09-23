@@ -221,6 +221,7 @@ func trick_or_treat():
 	print("trick or treat!")
 	timer_trick_or_treat.start()
 	animated_sprite_2d.pause()
+	bravery = min(bravery + 5.0, bravery_max)
 
 
 func _on_timer_trick_or_treat_timeout():
